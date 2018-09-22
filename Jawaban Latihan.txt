@@ -1,0 +1,27 @@
+Latihan Project Viral
+1.	a. Tidak terjadi compile error.
+	b. Terjadi error karena request URl yang diminta tidak sesuai dengan yg ada di controller
+	c. Kegunaannya untuk menghandle request URL yang diminta dan menjalankan fungsi dibawahnya.
+	
+2.	a. Tidak terjadi compile error
+	b. Webpage tetap berhasil merender template, perubahan method controller tidak index() menjadi viral() tidak terlalu berpengaruh, hanya penamaan saja.
+
+3.	a. Tidak terjadi compile error.
+	b. Webpage tidak berhasil merender template apapun karena tidak ditemukan template bernama "viral2jari".
+	c. Kegunaan return type adalah untuk memilih template mana yang ingin di render.
+	
+Latihan Request Parameter
+1.	Karena sudah ter-override oleh attribute text yg ada di dalam tag <p>.
+
+2.	Hasil browser menunjukkan error berupa tidak ditemukannya URL yang di request, sehingga tidak ada response yang diinginkan.
+
+3.	a. Hasil browser menunjukkan error karena tidak ada parameter 'name' yang dipassing ke method controller.
+	b. Denga adanya "required = false" tersebut, controller dgn otomatis meng-assign variable "name" yang ada di template menjadi null.
+	c. Dengan adanya default value, controller dgn otomatis meng-assign variable tersebut dgn default value tersebut karena tidak adanya parameter yang dipassing.
+
+Latihan Path Variable
+1.	Hasil dari halaman tersebut menunjukkan error karena Required parameter String "name" tersebut.
+
+2.	Hasil dari halaman tersebut menunjukkan variable "name" diassign oleh String "KB".
+
+3. Hasil dari halaman tersebut menunjukkan variable "name" diassign oelh String "kiki".
